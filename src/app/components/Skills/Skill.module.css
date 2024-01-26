@@ -1,0 +1,114 @@
+.wholeAnim{
+    animation: wholeanim 1.5s linear;
+}
+
+@keyframes wholeanim {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.wholenotAnim{
+    opacity: -1;
+    transition: 1.5s;
+}
+
+.bar1ANim{
+    animation: barAanim 1.5s linear;
+}
+
+@keyframes barAanim {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+.bar2ANim{
+    animation: barBanim 1.5s linear;
+}
+@keyframes barBanim {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+.bar3ANim{
+    animation: barCanim 1.5s linear;
+}
+@keyframes barCanim {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+.bar4ANim{
+    animation: barDanim 1.5s linear;
+}
+@keyframes barDanim {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+.bar5ANim{
+    animation: barEanim 1.5s linear;
+}
+@keyframes barEanim {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+.barNotAnim{
+    width: 0%;
+    transition: 1.5s;
+}
+
+.proBar1{
+    animation: proBaranim 1.5s linear;
+}
+
+@keyframes proBaranim {
+    from{
+        stroke-dashoffset: 480;
+    }
+    to{
+        stroke-dashoffset: 130;
+    }
+}
+
+.proBar2{
+    animation: proBar2anim 1.5s linear;
+}
+
+@keyframes proBar2anim {
+    from{
+        stroke-dashoffset: 480;
+    }
+    to{
+        stroke-dashoffset: 255;
+    }
+}
+
+.notProbaranim{
+    stroke-dashoffset: 480;
+    transition: 1.5s;
+}

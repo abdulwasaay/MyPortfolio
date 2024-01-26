@@ -1,0 +1,48 @@
+.numberType{
+    -moz-appearance: textfield; /* For Firefox */
+    appearance: textfield; /* For other browsers */
+}
+
+.numberType::-webkit-inner-spin-button,
+.numberType::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+     margin: 0;
+}
+
+.formAnim{
+    animation: formAnim .5s linear;
+}
+
+@keyframes formAnim {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(100%);
+    }
+}
+
+.formNotAnim{
+    transition: .5s;
+    transform: scale(0);
+}
+
+.contAnim{
+    animation: contAnim 1.5s linear;
+}
+
+@keyframes contAnim {
+    from{
+        opacity: 0;
+        transform: translateY(30%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contNotAnim{
+    opacity: 0;
+    transform: translateY(30%);
+}

@@ -1,0 +1,13 @@
+.menu{
+    visibility: hidden;
+}
+
+.active{
+    color: #0ef;
+}
+
+@media (max-width:764px){
+    .menu{
+        visibility: visible;
+    }
+}

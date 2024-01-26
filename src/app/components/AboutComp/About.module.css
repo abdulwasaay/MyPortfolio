@@ -1,0 +1,62 @@
+.AboutAnim{
+    animation: Aboutanim 1.5s linear;
+}
+
+@keyframes Aboutanim {
+    from{
+        opacity: 0;
+        transform: translateX(10%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.aboutNotAnim{
+    opacity: 0;
+    transform: translateX(10%);
+    transition: 1.5s;
+}
+
+.namAnim{
+    animation: Aboutnameanim 1.5s linear;
+}
+
+@keyframes Aboutnameanim {
+    from{
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.notNamAnim{
+    opacity: 0;
+    transform: translateY(-30%);
+    transition: 1.5s;
+}
+
+.aboutPicsanim{
+    animation: Aboutpicanim 1.5s linear;
+}
+
+@keyframes Aboutpicanim {
+    from{
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+} 
+
+.picNotAnim{
+    opacity: 0;
+    transform: translateX(-10%);
+    transition: 1.5s;
+}

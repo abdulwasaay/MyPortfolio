@@ -1,0 +1,33 @@
+.animate{
+    animation: moves 5s ease-in-out infinite;
+}
+
+@keyframes moves {
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(5%);
+      }
+}
+
+.imagAnim{
+  animation: imgAni 1.5s  linear;
+}
+
+@keyframes imgAni {
+  from{
+      transform: translateX(-30%);
+      opacity: 0;
+  }
+  to{
+     opacity: 1;
+     transform: translateX(0%);
+  }
+}
+
+.imgNotAnim{
+  opacity: 0%;
+  transform: translateX(-30%);
+  transition: 1.5s;
+}

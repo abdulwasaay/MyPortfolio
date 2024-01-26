@@ -1,0 +1,63 @@
+.BioAnimate{
+    animation: bioAni 1.5s  linear;
+}
+
+@keyframes bioAni {
+    from{
+        transform: translateY(-30%);
+        opacity: 0;
+    }
+    to{
+       opacity: 1;
+       transform: translateY(0%);
+    }
+}
+
+.BionotAnimate{
+    opacity: 0%;
+    transform: translateY(-30%);
+    transition: 1.5s;
+}
+
+.paraAnim{
+    animation: paraanim 2s  linear;
+}
+
+@keyframes paraanim {
+    from{
+        
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    to{
+       opacity: 1;
+       transform: translateX(0%);
+    }
+}
+
+.paranotAnim{
+    opacity: 0;
+    transition: 2s;
+    transform: translateX(-10%);
+}
+
+.headAnim{
+    animation: headinganim 2s  linear;
+}
+
+@keyframes headinganim {
+    from{
+        opacity: 0;
+        transform: translateX(10%);
+    }
+    to{
+       opacity: 1;
+       transform: translateX(0%);
+    }
+}
+
+.headnotAnim{
+    opacity: 0;
+    transition: 2s;
+    transform: translateX(10%);
+}
