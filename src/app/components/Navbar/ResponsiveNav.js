@@ -3,6 +3,12 @@ import { useEffect, useState } from "react";
 
 export default function ResNavBar({ clciked }) {
     const [data, setData] = useState("/#Home");
+
+    useEffect(() => {
+        document.getElementById("upButton").addEventListener('click', () => {
+            setData("/#Home")
+        })
+    }, [])
     useEffect(() => {
         const handlePopState = () => {
             const currentHash = "/" + window.location.hash;
