@@ -69,7 +69,7 @@ export default function BioData(){
                 <Link href="https://www.instagram.com/wasay_1234/" className=" ml-[15px] border-[#0ef] border-[2px] p-[10px] rounded-full hover:bg-[black]"><AiFillInstagram className="text-[#0ef]"/></Link>
                 <Link href="https://www.linkedin.com/in/abdul-wasay-68b125269/" className=" ml-[15px] border-[#0ef] border-[2px] p-[10px] rounded-full hover:bg-[black]"><FaLinkedinIn className="text-[#0ef]"/></Link>
             </div>
-            <a href="resume.pdf" download={true} className=" select-none text-[13px] text-black font-bold shadow-[1px_1px_10px_#0ef] hover:shadow-none rounded-3xl cursor-pointer bg-[#0ef] pt-[10px] pb-[10px] pl-[20px] pr-[20px] relative top-[40px]">
+            <a href="Abdul-Wasay-Resume.pdf" download={true} className=" select-none text-[13px] text-black font-bold shadow-[1px_1px_10px_#0ef] hover:shadow-none rounded-3xl cursor-pointer bg-[#0ef] pt-[10px] pb-[10px] pl-[20px] pr-[20px] relative top-[40px]">
                 Download CV
             </a>
         </div>
