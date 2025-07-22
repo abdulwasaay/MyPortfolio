@@ -23,7 +23,7 @@ export async function POST(request) {
             ${message}`,
         };
         try{
-            const info = await transporter.sendMail(mailOptions,);
+            const info = await transporter.sendMail(mailOptions);
             if (info.response){
                 return Response.json({mess:"Message sent Successfully!",info})
             }
